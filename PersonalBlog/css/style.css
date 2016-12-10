@@ -1,0 +1,654 @@
+/* Fonts */
+@font-face {
+    font-family: 'Hind-Light';
+    src: url('../fonts/Hind/Hind-Light.eot');
+    src: url('../fonts/Hind/Hind-Light.woff') 
+    format('woff'), url('../fonts/Hind/Hind-Light.ttf') 
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HindRegular';
+    src: url('../fonts/HindRegular/HindRegular.eot');
+    src: url('../fonts/HindRegular/HindRegular.woff') 
+    format('woff'), url('../fonts/HindRegular/HindRegular.ttf') 
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HindMedium';
+    src: url('../fonts/HindMedium/HindMedium.eot');
+    src: url('../fonts/HindMedium/HindMedium.woff') 
+    format('woff'), url('../fonts/HindMedium/HindMedium.ttf') 
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/FontAwesome/FontAwesome.eot');
+    src: url('../fonts/FontAwesome/FontAwesome.woff') 
+    format('woff'), url('../fonts/FontAwesome/FontAwesome.ttf') 
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montreal-Bold';
+    src: url('../fonts/Montreal/Montreal-Bold.eot');
+    src: url('../fonts/Montreal/Montreal-Bold.woff') 
+    format('woff'), url('../fonts/Montreal/Montreal-Bold.ttf') 
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('../fonts/OpenSansLight/OpenSansLight.eot');
+    src: url('../fonts/OpenSansLight/OpenSansLight.woff') 
+    format('woff'), url('../fonts/OpenSansLight/OpenSansLight.ttf') 
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MrsSaintDelafield-Regular';
+    src: url('../fonts/MrsSaintDelafield-Regular/MrsSaintDelafield-Regular.eot');
+    src: url('../fonts/MrsSaintDelafield-Regular/MrsSaintDelafield-Regular.woff') 
+    format('woff'), url('../fonts/MrsSaintDelafield-Regular/MrsSaintDelafield-Regular.ttf') 
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Fonts end */
+.wrapper{
+	width: 96%;
+	min-width: 1200px;
+	max-width: 1900px;
+	margin: auto;
+}
+.clear:before, .clear:after {
+	content:" ";
+    display: table;
+}
+.clear:after{
+	clear: both;
+}
+a, a:visited, a:active{
+	text-decoration: none;
+}
+body{
+	background-color: #f9f9fb;
+	min-width: 1200px;
+}
+.bgColor{
+	width: 100%;
+	min-width: 1200px;
+	height: 345px;
+	background-color: #212429;
+	position: absolute;
+}
+/* Header */
+header{
+	z-index: 999;
+	position: relative;
+}
+.headerMenuButton{
+	float: left;
+	width: 4%;
+}
+.fa-bars{
+	color: white;
+	padding: 20px;
+    border-left: 1px solid #3c3c3c;
+    border-right: 1px solid #3c3c3c;
+    cursor: pointer;
+}
+.logo{
+	margin-top: 20px;
+	margin-left: 40%;
+	float: left;
+	display: inline-block;
+	cursor: pointer;
+}
+.decoBlog{
+	font-family:'Hind', sans-serif;
+	font-size: 22px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+.headerNav{
+	float: right;
+	text-align: center;
+}
+.headerNav a{
+
+	line-height: 56px;
+	width: 55px;
+}
+.headerNav li{
+	position: relative;
+	display: inline-block;
+	border-left: 1px solid #3c3c3c;
+}
+.headerNav li:last-child{
+	border-right: 1px solid #3c3c3c;
+}
+.headerNav a:hover{
+	color: #999999;
+}
+.headerNav a{
+	color: #fff;
+	float: left;
+	
+}
+
+/* Newsletter */
+.Newsletter .wrapper{
+	padding-top: 29px;
+	padding-bottom: 25px;
+	background-color: #f7f7f7;
+}
+.newsletterSign{
+	float: left;
+	display: inline-block;
+	width: 15%;
+	line-height: 25px;
+    margin: 0 1.96%;
+	letter-spacing: 5px;
+	font-family: 'Montreal-Bold';
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #212121;
+	font-weight: 600;
+}
+.newsletterForm {
+    width: 60%;
+    float: left;
+    display: inline-block;
+}
+.SignupForm {
+    display: inline-block;
+    width: calc(40% - 15px);
+    outline: none;
+    border: 2px solid #f3f3f3;
+    height: 48px;
+    padding: 3px 30px 0 30px;
+    font-family: 'Hind-Light';
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #999999;
+    text-transform: uppercase;
+}
+.SignupForm:first-child{
+	margin-right: 30px;
+}
+.SubscribeButton{
+	height: 55px;
+	width: 100%;
+	border: none;
+	background-color: #212121;
+	color: #fff;
+	outline: none;
+	font-family: 'HindMedium';
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	cursor: pointer;
+}
+.Subscribe{
+	width: 18.3%;
+    margin-right: 1.96%;
+    float: right;
+}
+/* Newsletter End */
+/* Main */
+.main{
+	margin-top: 80px;
+	padding-bottom: 60px;
+}
+.column{
+	width: 23.53%;
+	display: inline-block;
+	float: left;
+	margin-left: 1.96%;
+	
+}
+.column:first-child{
+	margin-left: 0;
+}
+.post{
+	display: block;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	border: 1px solid #f1f1f3;
+	margin-bottom: 30px;
+	background-color: #fff;
+}
+.sticker {
+    width: 40px;
+    height: 36px;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+.white{
+	box-shadow: 1px 3px 3px 1px rgba(0,0,0,.2);
+}
+.imgPost_body{
+	position: relative;
+}
+.imgPost_body .postType{
+	margin-top: 0;
+	padding-top: 60px;
+}
+.postType {
+    font-size: 14px;
+    font-family: 'HindRegular';
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    margin-top: 60px;
+    color: #999999;
+}
+.postName{
+	padding: 0 32px;
+	font-family: 'Montreal-Bold';
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+.postDate{
+	font-family: 'HindRegular';
+	font-size: 14px;
+	letter-spacing: 2px;
+	color: #999999;
+	margin-bottom: 30px;
+}
+.postContainer{
+	padding: 0 32px;
+	font-family: 'Hind-Light';
+	font-size: 15px;
+	letter-spacing: 2px;
+	text-transform: none;
+	line-height: 28px;
+	margin-bottom: 30px;
+}
+.readMore{
+	text-decoration: none;
+	font-family: 'HindMedium';
+	font-size: 14px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	padding: 10px 13px;
+	border-left: 1px solid #d7d7d7;
+	border-right: 1px solid #d7d7d7;
+	display: inline-block;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+.readMore a{
+	color: #212121;
+}
+.postFooter{
+	border-top: 1px solid rgba(0,0,0,0.05);
+	padding: 0	8%;
+}
+.postComent{
+	text-align: left;
+	width: 60%;
+	margin: 8.5% 0;
+	float: left;
+}
+.postComText{
+	font-family: 'HindRegular';
+	font-size: 14px;
+	letter-spacing: 2px;
+	color: #999999;
+	margin-left: 8px;
+}
+.fa-comments-o{
+	cursor: pointer;
+}
+.postSocial{
+	width: 35%;
+	margin: 8.5% 0;
+	float: right;
+}
+.postSocial ul{
+	text-align: right;
+}
+.postSocial li{
+	display: inline-block;
+	margin-right: 10%;
+}
+.postSocial li:last-child{
+	margin-right: 0px;
+}
+.postSocial a{
+	color: #464646;
+}
+.empty{
+	height: 510px;
+}
+.bgImage{
+	padding-top: 40px;
+	background-image: url(../slides/postBg.png);
+	background-size: cover;
+}
+.imgPost{
+	margin-bottom: 48px;
+}
+.postImg{
+	width: 100%;
+	height: 265px;
+}
+.postImg img{
+	width: 100%;
+	height: 100%;
+}
+.quote{
+	background-color: #212429;
+	margin-bottom: 48px;
+}
+.quoteText{
+	padding: 0 32px;
+	font-family: 'Hind-Light';
+	font-size: 17px;
+	letter-spacing: 2px;
+	color: #fff;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.quote .postComText{
+	margin-bottom: 40px;
+}
+.postVideo{
+	margin-bottom: 40px;
+}
+.galery{
+	box-shadow: 0px 0px 40px 3px rgba(0,0,0,0.35);
+	margin-bottom: 48px;
+}
+.galery .readMore{
+	border: none;
+}
+.galery .readMore a{
+	color: #999999;
+}
+.horizontalBorder{
+	padding: 5px 0;
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+}
+.row{
+	display: block;
+	margin-bottom: 1px;
+}
+.row:last-child{
+	margin-bottom: 0;
+}
+.smallGalery{
+	background-color: #f6f6f6;
+}
+.smallImg {
+    display: inline-block;
+    float: left;
+    width: calc(50% - 0.5px);
+    margin-right: 1px;
+
+}
+.smallImg img{
+	display: block;
+}
+.smallImg:last-child{
+	margin-right: 0;
+}
+.smallImg img{
+	width: 100%;
+}
+.link .sticker{
+	margin-bottom: 0;
+}
+.link{
+	background-color: #212429;
+	margin-bottom: 48px;
+}
+.linkText {
+    padding: 60px 32px 60px 23px;
+}
+.linkStyle{
+	font-family: 'Hind-Light';
+	font-size: 17px;
+	letter-spacing: 2px;
+	text-transform: none;
+	color: #fff;
+	text-decoration: underline;
+	cursor: pointer;
+	word-wrap: break-word;
+}
+.windowsImage{
+	overflow: hidden;
+}
+.windowsImage img{
+	width: 100%;
+	vertical-align: middle;
+}
+.empty{
+	margin-bottom: 46px;
+}
+.post + .empty{
+	margin-bottom: 30px;
+}
+.Ellipse{
+	margin-bottom: 160px;
+}
+/* End main */
+
+/* Footer */
+footer{
+	background-color: #212429;
+	color: #fff;
+	padding-bottom: 60px;
+}
+footer .wrapper{
+	padding-top: 60px;
+}
+footer h4{
+	font-family: 'Montreal-Bold';
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 36px;
+}
+footer h5{
+	font-family: 'Hind-Light';
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing: 1px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.twitterTag{
+	margin-bottom: 35px;
+}
+.twitterTag:last-child{
+	margin-bottom: 0;
+}
+.twitterTag span{
+	font-family: 'Hind-Light';
+	font-size: 14px;
+	margin-left: 10px;
+	letter-spacing: 2px;
+}
+.tagText{
+	font-family: 'Hind-Light';
+	margin-left: 30px;
+	margin-top: 15px;
+	font-size: 15px;
+	line-height: 28px;
+    letter-spacing: 1px;
+}
+.instagramGalery .row{
+	margin-bottom: 2px;
+}
+.instaItem {
+    display: inline-block;
+    width: calc(33% - 1px);
+    float: left;
+    overflow: hidden;
+    margin-right: 2px;
+}
+.instaItem img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.instaItem:last-child{
+	margin-right: 0;
+}
+.footerComment{
+	font-family: 'OpenSansLight';
+	font-size: 14px;
+	letter-spacing: 2px;
+	margin-bottom: 29px;
+	padding-bottom: 29px;
+	border-bottom: 1px solid #65676a;
+}
+.footerComment:last-child{
+	margin:0;
+	padding: 0;
+	border: none;
+}
+.footerComment span{
+	display: block;
+}
+.fromWho{
+	margin-bottom: 10px;
+}
+.fottercommentText{
+	line-height: 24px;
+}
+.autograph{
+	width: 100%;
+}
+.footerBot{
+	background-color: #17191c;
+}
+.privacy{
+	font-family: 'Hind-Light';
+	color: #929293;
+	font-size: 14px;
+	letter-spacing: 2px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 14px 0 10px 0;
+}
+.copyright, .policy{
+	margin-right: 17px;
+    padding-right: 10px;
+    border-right: 1px solid #929293;
+}
+.policy, .disclaimer{
+	cursor: pointer;
+}
+iframe{
+    border-width: 0px;
+    width: 100%;
+}
+/* Footer End */
+/*Slider*/
+.bx-clone img{
+	margin-bottom: 0!important;
+}
+.bx-wrapper .bx-viewport{
+	border: none;
+	outline: none;
+	box-shadow: none;
+	left: 0px;
+	background: transparent;
+}
+.bx-wrapper img {
+    width: 100%;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a{
+	width: 6px;
+	height: 6px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-radius: 0;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{
+	background-color: #999999;
+}
+.bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: block;
+    margin-bottom: 10px;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	width: auto;
+	padding: 0;
+	top: 45%;
+	right: 5%;
+}
+.bx-wrapper .bx-controls-direction a{
+	margin-top: 0;
+	width: 12px;
+	height: 26px;
+	right: 3%;
+}
+.bx-wrapper{
+	margin: 0;
+}
+.bx-wrapper .bx-prev{
+	background: url(../img/Top.png) no-repeat;
+	top: 29%;
+}
+.bx-wrapper .bx-next{
+	background: url(../img/Down.png) no-repeat;
+	top: 67%;
+}
+
+
+/* Slider End */
+@media screen and (max-width: 1400px) {
+	.postComent{
+		text-align: center;
+		width: 100%;
+		float: none;
+		margin:5% 0;
+	}
+	.postSocial{
+		width: 100%;
+		float: none;
+		margin: 5% 0;
+		text-align: center;
+	}
+	.postSocial li{
+		margin-right: 8.5%
+	}
+	.postSocial ul {
+    text-align: center;
+}
+}
+@media screen and (min-width: 1400px){
+	.postComent{
+		width: 60%;
+		float: left;
+		margin: 8.5% 0;
+	}
+	.postSocial{
+		width: 40%;
+		float: right;
+		margin: 8.5% 0;
+	}
+}

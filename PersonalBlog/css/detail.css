@@ -1,0 +1,619 @@
+/* Fonts */
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular/Montserrat-Regular.woff') format('woff'), url('../fonts/Montreal/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Hind-Light';
+    src: url('../fonts/Hind/Hind-Light.eot');
+    src: url('../fonts/Hind/Hind-Light.woff') 
+    format('woff'), url('../fonts/Hind/Hind-Light.ttf') 
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HindRegular';
+    src: url('../fonts/HindRegular/HindRegular.eot');
+    src: url('../fonts/HindRegular/HindRegular.woff') 
+    format('woff'), url('../fonts/HindRegular/HindRegular.ttf') 
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Hind:600');
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/FontAwesome/FontAwesome.eot');
+    src: url('../fonts/FontAwesome/FontAwesome.woff') 
+    format('woff'), url('../fonts/FontAwesome/FontAwesome.ttf') 
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montreal-Bold';
+    src: url('../fonts/Montreal/Montreal-Bold.eot');
+    src: url('../fonts/Montreal/Montreal-Bold.woff') 
+    format('woff'), url('../fonts/Montreal/Montreal-Bold.ttf') 
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@font-face {
+    font-family: 'MrsSaintDelafield-Regular';
+    src: url('../fonts/MrsSaintDelafield-Regular/MrsSaintDelafield-Regular.eot');
+    src: url('../fonts/MrsSaintDelafield-Regular/MrsSaintDelafield-Regular.woff') 
+    format('woff'), url('../fonts/MrsSaintDelafield-Regular/MrsSaintDelafield-Regular.ttf') 
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Fonts end */
+.clear:before, .clear:after {
+	content:" ";
+    display: table;
+}
+.clear:after{
+	clear: both;
+}
+.personalContent{
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+.detailMain{
+	width: 74.5%;
+	float: left;
+	margin-right: 2%
+}
+.detailSide {
+	box-sizing: border-box;
+    width: 23.5%;
+    float: left;
+    background-color: #fff;
+    padding: 40px 30px 30px 30px;
+    border: 1px solid #f5f5f7;
+}
+.detailImage{
+	background-color: #fff;
+	position: relative;
+}
+.detailImage_sticker {
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%,50%);
+}
+.detailImage_logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.detailBig_image{
+	width: 100%;
+	vertical-align: middle;
+}
+.textBox{
+	text-align: center;
+	background-color: #fff;
+	padding: 68px 55px 0 55px;
+	border-left: 1px solid #f5f5f7;
+	border-right: 1px solid #f5f5f7;
+}
+.text{
+	padding-bottom: 50px;
+}
+.detailType{
+	font-family: 'HindRegular';
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: #999999;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.detailName{
+	font-family: 'Montreal-Bold';
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #212121;
+	margin-bottom: 25px;
+}
+.postAutor{
+	color: #999999;
+	font-size: 16px;
+	font-family:'HindRegular';
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+.autor, .date{
+	display: inline-block;
+	width: 49%;
+	float: left;
+}
+.autor{
+	text-align: right;
+	margin-right: 2%;
+}
+.date{
+	text-align: left;
+}
+.fa-user, .fa-calendar{
+	color: #464646;
+	margin-right: 2%;
+}
+.postContent{
+	text-align: justify;
+	font-family: 'Hind-Light';
+	font-size: 16px;
+	letter-spacing: 2px;
+	color: #424242;
+	line-height: 28px;
+}
+.postContent div{
+	margin-bottom: 30px!important;
+    width: 95%;
+    margin: auto;
+}
+.detailQuote{
+	font-family: 'HindMedium';
+	margin:auto;
+	margin-bottom: 30px;
+	width: 60%!important;
+}
+.postTag{
+	font-family:'HindRegular';
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #999999;
+	letter-spacing: 2px;
+	}
+.fa-tags{
+	margin-right: 1%;
+}
+.textFooter {
+    text-transform: uppercase;
+    font-family: 'HindRegular';
+    font-size: 16px;
+    color: #999999;
+    padding: 30px 55px;
+    border: 1px solid #f5f5f7;
+    background-color: #fff;
+    margin-bottom: 60px;
+}
+.detailComent {
+	text-align: left;
+    width: 15%;
+    display: inline-block;
+    float: left;
+}
+.fa-comments-o{
+	color: #464646;
+}
+.detailSocial{
+	display: inline-block;
+	float: right;
+	width: 20%;
+}
+.detailSocial ul{
+	text-align: right;
+}
+.detailSocial li{
+	display: inline-block;
+	margin-left: 12%;
+}
+.detailSocial li:first-child{
+	margin-left: 0;
+}
+.detailSocial a{
+	text-decoration: none;
+	color: #464646;
+}
+.detailLike {
+    width: 15%;
+    display: inline-block;
+    float: left;
+}
+.detailLike i{
+	cursor: pointer;
+}
+.averageStar {
+    text-align: center;
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+.average{
+	display: inline-block;
+	margin-right: 1%;
+}
+.stars{
+	display: inline-block;
+}
+.fa-star{
+	color:#999999;
+}
+.fa-star:nth-child(1),.fa-star:nth-child(2),.fa-star:nth-child(3){
+	color:#464646;
+}
+.postButton a{
+	position: relative;
+	float: left;
+	text-align: center;
+	display: inline-block;
+	width: calc(50% - 15px);
+	height: 138px;
+	background-color: #3a3c49;
+}
+.postButton a:first-child{
+	margin-right: 30px;
+}
+.postButton a:hover{
+	background-color: #000;
+}
+.postButton span{
+	font-family: 'HindRegular';
+	font-size: 14px;
+	line-height: 138px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+.postButton img{
+	position: absolute;
+	top: 43.5%;
+}
+.postButton img:first-child{
+    left: calc(100% - 68%);
+}
+.postButton img:last-child{
+    right: calc(100% - 65%);
+}
+.postButton{
+	margin-bottom: 60px;
+}
+.autorName{
+	float: left;
+	font-family: 'Montserrat-Regular';
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.allPost{
+	float: right;
+	font-family: 'HindRegular';
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #212121;
+}
+.commentAutor_pic {
+    width: 209px;
+    height: 172px;
+    display: inline-block;
+    float: left;
+}
+.commentAutor_pic img{
+	width: 100%;
+}
+.detailComment_content{
+	background-color: #fff;
+	width: calc(100% - 211px);
+	float: left;
+	display: inline-block;
+	color: #212121;
+	height: 172px;
+	border: 1px solid #f5f5f7;
+}
+.commentTop {
+    padding: 30px 20px 18px 20px;
+    border-bottom: 1px solid #eaeaeb;
+}
+.commentBot{
+	font-family: 'Hind-Light';
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 1px;
+	padding: 10px 20px 30px 20px;
+	color: #424242;
+}
+.detailComment{
+	margin-bottom: 20px;
+}
+.detailSocial_big a{
+    float: left;
+    margin-right: 2.66%;
+    display: inline-block;
+    background-color: #fff;
+    width: 23%;
+}
+.detailSocial_big a:last-child{
+	margin-right: 0;
+}
+.socialLogo {
+    float: left;
+    line-height: 48px;
+    text-align: center;
+    width: 56px;
+    display: inline-block;
+    border-right: 0;
+    box-sizing: border-box;
+    border: 1px solid #f5f5f7;
+}
+.socialLogo i{
+	padding: 14px 0;
+    width: 56px;
+	font-size: 18px;
+	color: #464646;
+}
+.socialLogo i:hover{
+	color: #fff;
+}
+.socialLogo:hover{
+	background-color: #000;
+	border: 0;
+}
+.socialName {
+    text-align: center;
+    width: calc(100% - 56px);
+    float: left;
+    display: inline-block;
+    font-family: 'HindRegular';
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 48px;
+    color: #999999;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border: 1px solid #f5f5f7;
+    border-left: 0;
+    cursor: pointer;
+}
+.detailSocial_big{
+	margin-bottom: 60px;
+}
+.recomendedPost{
+	padding: 30px 40px;
+	background-color: #fff;
+	border: 1px solid #f5f5f7;
+}
+.recomendedButtons{
+	float: right;
+}
+.recomendedButtons div{
+	display: inline-block;
+}
+.recomendedPost h2{
+	font-family: 'Montreal-Bold';
+	font-size: 20px;
+	color: #212121;
+	text-transform: uppercase;
+	float: left;
+	line-height: 34px;
+}
+.recomendedTop{
+	margin-bottom: 30px;
+}
+.smallNext{
+	margin-left: 7px;
+}
+.recomendedBot{
+	margin-top: 40px;
+}
+.recmendedPost_Item{
+	display: inline-block;
+	margin-right: 3%;
+	width: 31%;
+}
+.recmendedPost_Item:last-child{
+	margin-right: 0;
+}
+.recomendedPost_name{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: 'Montreal-Bold';
+	font-size: 16px;
+	line-height: 22px;
+	color: #212121;
+	margin-top: 20px;
+}
+.recomendedPost_img img{
+	width: 100%;
+}
+.search {
+    box-sizing: border-box;
+    width: calc(100% - 50px);
+    float: left;
+    border: none;
+    outline: none;
+    background-color: #f9f9fb;
+    font-family: 'Hind-Light';
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #212121;
+    padding: 11px 20px;
+    display: inline-block;
+}
+.searchLogo {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: url(../img/searchLogo.png) no-repeat;
+    background-size: contain;
+    border: 0;
+    outline: 0;
+    display: inline-block;
+    z-index: 999;
+    cursor: pointer;
+}
+.detailSearch{
+	margin-bottom: 40px;
+}
+.detailBig_img{
+	margin-bottom: 40px;
+}
+.detailBig_img img{
+	width: 100%;
+}
+.categories h2{
+	text-align: center;
+	font-family: 'Montreal-Bold';
+	font-size: 20px;
+	color: #212121;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding-bottom: 19px;
+	border-bottom: 1px solid #f7f7f7;
+}
+.categoriesItem_name, .categoriesItem_value{
+	font-family: 'HindMedium';
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 50px;
+	text-transform: uppercase;
+	color: #212121;
+}
+.categoriesItem_name{
+	float: left;
+}
+.categoriesItem_value{
+	float: right;
+}
+.categoriesItem{
+	border-bottom: 1px solid #f7f7f7; 
+}
+.categories{
+	margin-bottom: 40px;
+}
+.detailSmall_img img{
+	width: 100%;
+}
+.detailSmall_img{
+	margin-bottom: 40px;
+}
+.latestPost h2{
+	text-align: center;
+	font-family: 'Montreal-Bold';
+	font-size: 20px;
+	color: #212121;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding-bottom: 19px;
+	border-bottom: 1px solid #f7f7f7;
+}
+.latestPost_item{
+	margin-top: 30px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f7f7f7;
+}
+.latestPost_img{
+	width: 28%;
+	float: left;
+}
+.latestPost_img img{
+	width: 100%;
+}
+.latestPost_block{
+	margin-left: 3.3%;
+	float: left;
+	width: 68%;
+	text-transform: uppercase;
+}
+.latestPost_name {
+    position: relative;
+    font-family: 'Montserrat-Regular';
+    font-size: 16px;
+    color: #212121;
+    line-height: 22px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    top: -4px;
+}
+.latestPost_date, .latestPost_like {
+    width: 50%;
+    font-family: 'Hind-Light';
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    display: inline-block;
+    float: left;
+}
+.sideSocial li {
+	font-size: 21px;
+    width: 20%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+.sideSocial li:last-child{
+	margin-right: 0;
+}
+.sideSocial a{
+	color: #464646;
+}
+.sideSocial{
+	margin-top: 40px;
+}
+.sideSlider{
+	margin-top: 40px;
+}
+.sideSlider .bx-wrapper .bx-next{
+	width: 36px;
+	height: 36px;
+	right: 0;
+	top: 50%!important;
+    transform: translateY(-50%);
+	background: url(../img/RightArrow.png) no-repeat;
+}
+.sideSlider .bx-wrapper .bx-prev{
+	width: 36px;
+	height: 36px;
+	top: 50%!important;
+    transform: translateY(-50%);
+	left: 0;
+	background: url(../img/LeftArrow.png) no-repeat;	
+}
+.facebookPlagin {
+    margin-top: 40px;
+    width: 100%;
+    overflow: hidden;
+}
+.fb_iframe_widget iframe{
+	width: 100%!important;
+}
+.fb_iframe_widget_fluid span{
+	width: 100%!important;
+}
+._2p3a{
+	width: 100%!important;
+}
+@media screen and (max-width: 1400px) {
+	.wrapper{
+		width: 100%;
+	}
+	.sideSocial li{
+	}
+	.detailSocial li{
+		margin-left: 10%;
+	}
+}
+@media screen and (max-width: 1500px) {
+
+}
+/*Recomended Slider*/
+.owl-controls{
+	position: absolute;
+	right: 0;
+}
+.owl-nav div{
+	display: inline-block;
+}
+/*Slider end*/

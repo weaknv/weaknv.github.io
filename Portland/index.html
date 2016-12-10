@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Portland</title>
+      <link rel="stylesheet" href="css/reset.css">
+      <link href="css/jquery.formstyler.css" rel="stylesheet" />
+      <link href="css/jquery.bxslider.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="js/jquery.formstyler.js"></script>
+      <script src="js/jquery.bxslider.min.js"></script>
+      <script src="js/main.js"></script>
+
+   </head>
+   <body>
+      <div class="header">
+         <div class="headerTop">
+            <div class="wrapper clear">
+               <div class="menuButton">
+               </div>
+               <div class="logo">
+               </div>
+               <div class="menuCenter">
+                  <ul>
+                     <li><a href="">Home</a></li>
+                     <li><a href="">Devices</a></li>
+                     <li><a href="">Delivery & Payment</a></li>
+                     <li><a href="">Guarantee</a></li>
+                     <li><a href="">About Us</a></li>
+                  </ul>
+               </div>
+               <div class="menuRight">
+                  <div class="signButton">
+                     SIGN IN
+                  </div>
+                  <div class="counter">
+                     0
+                  </div>
+                  <div class="cartText">
+                     CART
+                  </div>
+                  <div class="cartIcon">	
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="headerBot">
+            <div class="wrapper clear">
+               <div class="menuBot">
+                  <ul>
+                     <li><a href="#">TOP SALES</a></li>
+                     <li><a href="#">BRAND FOCUS</a></li>
+                     <li><a href="#">HI-TECH</a></li>
+                     <li><a href="#">BEST SELLERS</a></li>
+                     <li><a href="#">PORJECTS</a></li>
+                     <li><a href="#" class="support">SUPPORT</a></li>
+                  </ul>
+               </div>
+               <div class="menuSearch">
+                  <form  method="post" id="search">
+                     <input type="submit" value="" class="searchLogo">
+                     <input class="Search"  placeholder="I`m looking for..."  type="search">
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="slide1">
+         <div class="wrapper">
+         	<div class="slider">
+					<img src="slides/slide1.png" alt=""/>
+					<img src="slides/slide1.png" alt=""/>
+					<img src="slides/slide1.png" alt=""/>
+					<img src="slides/slide1.png" alt=""/>
+			</div>
+         </div>
+      </div>
+      <div class="content">
+         <div class="wrapper">
+            <div class="slide2">
+               <div class="wrapper clear">
+                  <div class="sortBy">
+                     <span class="grayText">SORT BY:</span>
+                     <select id="sortBy">
+                        <option value="Best Match">Best Match</option>
+                        <option value="Best Price">Best Price</option>
+                        <option value="In stock">In stock</option>
+                     </select>
+                  </div>
+                  <form class="sortMenu">
+                     <span class="grayText">KEYWORDS</span>
+                     <input class="keySerch"  placeholder="Tablet"  type="search">
+                     <span class="grayText">PRICE</span>
+                     <input class="price" type="Text">
+                     <span class="grayText">-</span>
+                     <input class="price" type="Text">
+                     <div class="freeButton">
+	                     <input type="checkbox" value="Free Shipping">
+	                     <span class="checkboxSprite"></span>
+	                     <span class="freeText">Free Shipping</span>
+                     </div>
+                  </form>
+                  <div class="shipTo">
+                     <span class="grayText">SHIP TO:</span>
+                     <select id="shipTo">
+                        <option value="USA">Europe</option>
+                        <option value="Europe">USA</option>
+                        <option value="Asia">Asia</option>
+                     </select>
+                  </div>
+               </div>
+            </div>
+            <div class="slide3 clear">
+               <aside class="clear">
+                  <div class="asideFilters">
+                     <div class="asideItem clear">
+                        <div class="asideCaption clear">
+                           <span class="chooseSection">Top Sales</span>
+                           <span class="openIcon"></span>
+                        </div>
+                        <ul class="asideActive">
+                           <li><a href="">1st Option</a></li>
+                           <li><a href="">2nd Option</a></li>
+                           <li><a href="">3d Option</a></li>
+                           <li><a href="">4th Option</a></li>
+                           <li><a href="">5th Option</a></li>
+                        </ul>
+                     </div>
+                     <div class="asideItem clear">
+                        <div class="asideCaption clear">			<span class="chooseSection">Brand Focus</span>
+                           <span class="openIcon"></span>
+                        </div>
+                        <ul class="asideActive">
+                           <li><a href="">1st Option</a></li>
+                           <li><a href="">2nd Option</a></li>
+                           <li><a href="">3d Option</a></li>
+                           <li><a href="">4th Option</a></li>
+                           <li><a href="">5th Option</a></li>
+                        </ul>
+                     </div>
+                     <div class="asideItem clear">
+                        <div class="asideCaption clear">			<span class="chooseSection">Hi-Tech</span>
+                           <span class="openIcon"></span>
+                        </div>
+                        <ul class="asideActive">
+                           <li><a href="">Cell Phones</a></li>
+                           <li><a href="">Cameras</a></li>
+                           <li><a href="">Computers</a></li>
+                           <li><a href="">Tv, Audio</a></li>
+                           <li><a href="">Video Games</a></li>
+                        </ul>
+                     </div>
+                     <div class="asideItem clear">
+                        <div class="asideCaption clear">			<span class="chooseSection">Home</span>
+                           <span class="openIcon"></span>
+                        </div>
+                        <ul class="asideActive">
+                           <li><a href="">1st Option</a></li>
+                           <li><a href="">2nd Option</a></li>
+                           <li><a href="">3d Option</a></li>
+                           <li><a href="">4th Option</a></li>
+                           <li><a href="">5th Option</a></li>
+                        </ul>
+                     </div>
+                     <div class="asideItem clear">
+                        <div class="asideCaption clear">			<span class="chooseSection">Sale</span>
+                           <span class="openIcon"></span>
+                        </div>
+                        <ul class="asideActive">
+                           <li><a href="">1st Option</a></li>
+                           <li><a href="">2nd Option</a></li>
+                           <li><a href="">3d Option</a></li>
+                           <li><a href="">4th Option</a></li>
+                           <li><a href="">5th Option</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="available">
+                     <p>Available</p>
+                     <div class="radioItems clear">
+                        <input type="radio" name="available" checked />
+                        <span class="radioSprite"></span>
+                        <span class="availableOption">In Storage</span>
+                        <span class="grayText">45</span>
+                     </div>
+
+                     <div class="radioItems clear">
+                        <input type="radio" name="available"/>
+                        <span class="radioSprite"></span>
+                        <span class="availableOption">In Online-Shop</span>
+                        <span class="grayText">12</span>
+                     </div>
+                  </div>
+                  <div class="brands clear">
+                     <div class="filtersText">
+                        <span>Brands</span>
+                        <span>All</span>
+                     </div>
+                     <div class="brandChoose clear">
+                        <div class="chekboxContainer clear">
+                           <input type="checkbox" name="Brand"  id="apple" value="none" checked>
+                           <span class="checkboxSprite"></span>
+                           <span class="brandName">Apple</span>
+                           <span class="grayText">32</span>
+                        </div>
+                        <div class="chekboxContainer clear">
+                           <input type="checkbox" name="Brand" id="JBL" value="none">
+                           <span class="checkboxSprite"></span>
+                           <span class="brandName">JBL</span>
+                           <span class="grayText">14</span>
+                        </div>
+                        <div class="chekboxContainer clear">
+                           <input type="checkbox" name="Brand" id="Bose" value="none">
+                           <span class="checkboxSprite"></span>
+                           <span class="brandName">Bose</span>
+                           <span class="grayText">3</span>
+                        </div>
+                        <div class="chekboxContainer clear">
+                           <input type="checkbox" name="Brand" id="Nest" value="none">
+                           <span class="checkboxSprite"></span>
+                           <span class="brandName">Nest</span>
+                           <span class="grayText">5</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="condition clear">
+                     <div class="conditionText clear">
+                        <span>Condition</span>
+                        <span>See All</span>
+                     </div>
+                     <div class="conditionChoose clear">
+                        <div class="chekboxContainer clear">
+                           <input type="checkbox" name="condition" id="New" value="none" checked>
+                           <span class="checkboxSprite"></span>
+                           <span class="brandName">New</span>
+                        </div>
+                        <div class="chekboxContainer clear">
+                           <input type="checkbox" name="condition" id="manufacturer" value="none">
+                           <span class="checkboxSprite"></span>
+                           <span class="brandName">Manufacturer Refurbished</span>
+                        </div>
+                        <div class="chekboxContainer clear">
+                           <input type="checkbox" name="condition" id="Seller" value="none">
+                           <span class="checkboxSprite"></span>
+                           <span class="brandName">Seller Refurbished</span>
+                        </div>
+                        <div class="chekboxContainer clear">
+                           <input type="checkbox" name="condition" id="Used" value="none" checked>
+                           <span class="checkboxSprite"></span>
+                           <span class="brandName">Used</span>
+                        </div>
+                        <div class="chekboxContainer clear">
+                           <input type="checkbox" name="condition" id="forParts" value="none">
+                           <span class="checkboxSprite"></span>
+                           <span class="brandName">For Parts or not Working</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="delivery">
+                     <div class="deliveryText">
+                        Delivery Options
+                     </div>
+                     <div class="deliveryChoose clear">
+                        <div class="deliveryItems clear">
+                           <input type="radio" name="delivery" id="free" checked />
+                           <span class="radioSprite"></span>
+                           <span class="deliveryOption">FREE</span>
+                        </div>
+                        <div class="deliveryItems clear">
+                           <input type="radio" name="delivery" id="deliveryPrice"/>
+                           <span class="radioSprite"></span>
+                           <span class="deliveryOption">&#36;4.99</span>
+                        </div>
+                     </div>
+                  </div>
+               </aside>
+               <div class="mainContent clear">
+                  <div class="row clear">
+                     <div class="products">
+                        <div class="imgContainer">
+                           <img  class="product" src="slides/product1.png" alt="">
+                        </div>
+                        <div class="productDescription">
+                           <div class="description">Apple TV 32GB</div>
+                           <div class="color grayText">Black</div>
+                           <div class="productPrice">&#36;49.99</div>
+                        </div>
+                     </div>
+                     <div class="products">
+                        <div class="imgContainer">
+                           <img  class="product" src="slides/product2.png" alt="">
+                        </div>
+                        <div class="productDescription">
+                           <div class="description">Pebble Time</div>
+                           <div class="color grayText">Red</div>
+                           <div class="productPrice">&#36;29.99</div>
+                        </div>
+                     </div>
+                     <div class="products">
+                        <div class="imgContainer">
+                           <img  class="product" src="slides/product3.png" alt="">
+                        </div>
+                        <div class="productDescription">
+                           <div class="description">Zendure 4-Port USB</div>
+                           <div class="color grayText">White</div>
+                           <div class="productPrice">&#36;49.99</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row clear">
+                     <div class="products">
+                        <div class="imgContainer">
+                           <img  class="product" src="slides/product4.png" alt="">
+                        </div>
+                        <div class="productDescription">
+                           <div class="description">Withings Smart Body Analyezer ws-50</div>
+                           <div class="color grayText">Black</div>
+                           <div class="productPrice">&#36;39.99</div>
+                        </div>
+                     </div>
+                     <div class="Big products">
+                        <div class="imgContainer">
+                           <img  class="product" src="slides/product5.png" alt="">
+                           <div class="bigPrice">&#36;39.99</div>
+                        </div>
+                        <div class="bigBottom clear">
+                           <div class="bigInfo">
+                              <div class="bigDescription">JBL Charge 2+</div>
+                              <div class="bigColor grayText">Black</div>
+                           </div>
+                           <div class="bigChoose clear">
+                              <span class="bigButton">16 GB</span>
+                              <span class="bigButton">BUY NOW</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row clear">
+                     <div class="products">
+                        <div class="imgContainer">
+                           <img  class="product" src="slides/product6.png" alt="">
+                        </div>
+                        <div class="productDescription">
+                           <div class="description">Ollo Clip New</div>
+                           <div class="color grayText">Silver</div>
+                           <div class="productPrice">&#36;19.99</div>
+                        </div>
+                     </div>
+                     <div class="products">
+                        <div class="imgContainer">
+                           <img  class="product" src="slides/product7.png" alt="">
+                        </div>
+                        <div class="productDescription">
+                           <div class="description">Fitbit Charge HR Heart Rate and Activity Tracker</div>
+                           <div class="color grayText">Black</div>
+                           <div class="productPrice">&#36;19.99</div>
+                        </div>
+                     </div>
+                     <div class="products">
+                        <div class="imgContainer">
+                           <img  class="product" src="slides/product8.png" alt="">
+                        </div>
+                        <div class="productDescription">
+                           <div class="description">Apple Watch Sport 38mm Silver Aluminum Case</div>
+                           <div class="color grayText">White</div>
+                           <div class="productPrice">&#36;49.99</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row clear">
+                     <div class="products">
+                        <div class="imgContainer">
+                           <img  class="product" src="slides/product9.png" alt="">
+                        </div>
+                        <div class="productDescription">
+                           <div class="description">Bose SoundLink <br> On-Ear Headphones</div>
+                           <div class="color grayText">White</div>
+                           <div class="productPrice">&#36;119.99</div>
+                        </div>
+                     </div>
+                     <div class="products">
+                        <div class="imgContainer">
+                           <img  class="product" src="slides/product10.png" alt="">
+                        </div>
+                        <div class="productDescription">
+                           <div class="description">Sonos Play-1 Wireless HiFi System</div>
+                           <div class="color grayText">Black</div>
+                           <div class="productPrice">&#36;99.99</div>
+                        </div>
+                     </div>
+                     <div class="products ">
+                        <div class="imgContainer fullSlot">
+                           <img  class="product" src="slides/product11.png" alt="">
+                           <div class="fullslotDescription">
+                              <div class="description">Nest Learning Thermostat, 3d Genetarion</div>
+                              <div class="productPrice">&#36;49.99</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="paginator">
+               <div class="prev"><a href="#"></a></div>
+               <div class="paginatorMain">
+                  <ul class="pagination clear">
+                     <li><a href="#">1</a></li>
+                     <li><a href="#">2</a></li>
+                     <li><a href="#">3</a></li>
+                     <li><a class="active" href="#">4</a></li>
+                     <li><a href="#">5</a></li>
+                     <li><a href="#">6</a></li>
+                     <li><a href="#">7</a></li>
+                     <li><a href="#">8</a></li>
+                  </ul>
+               </div>
+               <div class="next"><a href="#"></a></div>
+            </div>
+            <div class="bestSellers">
+               <div class="bsTitle">Best Sellers</div>
+               <div class="bsProducts clear">
+                  <div class="bsItems">
+                     <div class="bsImagecontainer">
+                        <img class="bsImage" src="slides/bsProduct1.png" alt="">
+                     </div>
+                     <div class="descriptionBlock">
+                     	<div class="bsDescription">
+                     		Beanie
+                     	</div>
+                     	<div class="bsColor grayText">
+                     		Green
+                     	</div>
+                     	<div class="bsPrice clear">
+                     	   <span class="before grayText">
+                     	  		&pound;39.99
+                     	   </span>
+                     	   <span class="after">
+                     	   	&pound;29.99
+                     	   </span>
+                     	</div>
+                     </div>
+                  </div>
+                  <div class="bsItems">
+                     <div class="bsImagecontainer">
+                        <img class="bsImage" src="slides/bsProduct2.png" alt="">
+                     </div>
+                     <div class="descriptionBlock">
+                     	<div class="bsDescription">
+                     		T-Shirt With a Print
+                     	</div>
+                     	<div class="bsColor grayText">
+                     		Dark Blue
+                     	</div>
+                     	<div class="bsPrice clear">
+                     	   <span class="before grayText">
+                     	   	&pound;29.99
+                     	   </span>
+                     	   <span class="after">
+                     	   	&pound;19.99
+                     	   </span>
+                     	</div>
+                     </div>
+                  </div>
+                  <div class="bsItems">
+                     <div class="bsImagecontainer">
+                        <img class="bsImage" src="slides/bsProduct3.png" alt="">
+                     </div>
+                     <div class="descriptionBlock">
+                     	<div class="bsDescription">
+                     		Pile-Lined Hooded Jacket						
+                     	</div>
+                     	<div class="bsColor grayText">
+                     		Dark Blue                   	
+                     	</div>
+                     	<div class="bsPrice clear">
+                     	   <span class="before grayText">
+                     	   	&pound;49.99
+                     	   </span>
+                     	   <span class="after">
+                     	   	&pound;39.99
+                     	   </span>
+                     	</div>
+                     </div>
+                  </div>
+                  <div class="bsItems">
+                     <div class="bsImagecontainer">
+                        <img class="bsImage" src="slides/bsProduct4.png" alt="">
+                     </div>
+                     <div class="descriptionBlock">
+                     	<div class="bsDescription">
+                     		Trainers						
+                     	</div>
+                     	<div class="bsColor grayText">
+                     		Space Grey                     	
+                     	</div>
+                     	<div class="bsPrice clear">
+                     	   <span class="before grayText">
+                     	   	&pound;39.99
+                     	   </span>
+                     	   <span class="after">
+                     	   	&pound;29.99
+                     	   </span>
+                     	</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="reviews">
+      	<div class="wrapper">
+      		<div class="reviewsHeader">
+      			<h1>What Our Customers Have to Say</h1>
+      			<h3>Couple of Words About This Stories Section</h3>
+      		</div>
+      		<div class="reviewsMain clear">
+      			<div class="reviewItems clear">
+      				<div class="user clear">
+      					<div class="userPict">
+      						<img src="img/userpic1.png" alt="" class="userImg">
+      					</div>
+      					<div class="userInfo">
+      						<div class="userName">Celia Fields</div>
+      						<div class="userPosition">UX Expert</div>
+      					</div>
+      				</div>
+      				<div class="reveiw">
+      					This I have produced as a scantlig of Jack`s great eloquence and the force of his reasoning upon such abstruse matters.
+      				</div>
+      			</div>
+      			<div class="reviewItems clear">
+      				<div class="user clear">
+      					<div class="userPict">
+      						<img src="img/userpic2.png" alt="" class="userImg">
+      					</div>
+      					<div class="userInfo">
+      						<div class="userName">Alexander Lee</div>
+      						<div class="userPosition">Founder</div>
+      					</div>
+      				</div>
+      				<div class="reveiw">
+      					Looking cautiously round, to ascertain that they were not overheard, the two hags cowered nearer to the fire, and chuckled heartily.
+      				</div>
+      			</div>
+      			<div class="reviewItems clear">
+      				<div class="user clear">
+      					<div class="userPict">
+      						<img src="img/userpic3.png" alt="" class="userImg">
+      					</div>
+      					<div class="userInfo">
+      						<div class="userName">Lenora Sandoval</div>
+      						<div class="userPosition">Product Manager</div>
+      					</div>
+      				</div>
+      				<div class="reveiw">
+      					This sounded a very good reason, and Alice was quite pleased to know it.&lsquo;I never thought of that before!&rsquo;she said.
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+      <div class="footer">
+      	<div class="wrapper clear">
+      		<div class="footerTop clear">
+      			<div class="footerlogo">
+      		    </div>
+      		    <div class="footerMenu">
+      		        <ul>
+      		        	<li><a href="#">Home</a></li>
+      		            <li><a href="#">Shop</a></li>
+      		            <li><a href="#">Team</a></li>
+      		            <li><a href="#">About Us</a></li>
+      		            <li><a href="#">Contacts</a></li>
+      		        </ul>
+      		    </div>
+      		    <div class="social clear">
+      		    	<div class="socialItem">
+      		    	<a href="#" class="google">&nbsp;</a>
+      		    	</div>
+      		    	<div class="socialItem">
+      		    	<a href="#" class="facebook">&nbsp;</a>
+      		    	</div>
+      		    	<div class="socialItem">
+      		    	<a href="#" class="twitter">&nbsp;</a>
+      		    	</div>
+      		    </div>
+      		</div>
+      		<div class="footerBot clear">
+      			<div class="footerText">
+      				She gave my mother such a turn, that I have always been convinced I am indebted to Miss Betsey for having been born on Friday
+      			</div>
+      			<div class="law">
+      				<div class="privacy">
+      					<a href="">Privacy Policy</a>
+      				</div>
+      				<div class="privacy">
+      					<a href="">Terms and Conditions</a>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+   </body>
+</html>

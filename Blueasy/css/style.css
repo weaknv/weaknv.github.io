@@ -1,0 +1,522 @@
+@font-face {
+    font-family: 'SegoeUIBold';
+    src: url('../fonts/SegoeUIBold/SegoeUIBold.eot');
+    src: url('../fonts/SegoeUIBold/SegoeUIBold.woff') format('woff'), url('../fonts/SegoeUIBold/SegoeUIBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SegoeUILight';
+    src: url('../fonts/SegoeUILight/SegoeUILight.eot');
+    src: url('../fonts/SegoeUILight/SegoeUILight.woff') format('woff'), url('../fonts/SegoeUILight/SegoeUILight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SegoeUIRegular';
+    src: url('../fonts/SegoeUIRegular/SegoeUIRegular.eot');
+    src: url('../fonts/SegoeUIRegular/SegoeUIRegular.woff') format('woff'), url('../fonts/SegoeUIRegular/SegoeUIRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SegoeUISemiBold';
+    src: url('../fonts/SegoeUISemiBold/SegoeUISemiBold.eot');
+    src: url('../fonts/SegoeUISemiBold/SegoeUISemiBold.woff') format('woff'), url('../fonts/SegoeUISemiBold/SegoeUISemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html { 
+	color: #515f67
+}
+html,body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-family: 'SegoeUIBold';
+    min-width: 1200px;
+}
+a { 
+	text-decoration: none 
+}
+input[type="text"] {
+    font-family: 'SegoeUIRegular';
+    font-size: 20px;
+    font-style: italic;
+    color: #ffffff;
+    border: 2px solid white;
+}
+.clear {
+    width: 100%;
+    clear: both;
+    display: block;
+}
+.header {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background: rgba(57,68,75,0.85);
+    line-height: 150px;
+    z-index: 999;
+    min-width: 1200px;
+}
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.header .wrapper{
+ 	padding-top: 0;
+ 	padding-bottom: 0;
+}
+.logo {
+    font-size: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+    float: left;
+}
+.blueText { 
+	color: #4bcaff 
+}
+.mainnav {
+    font-family: 'SegoeUIBold';
+    font-size: 14px;
+    float: right;
+    text-align: right;
+    text-transform: uppercase;
+}
+.mainnav li {
+  	 margin-right: 10px 
+  	}
+.mainnav li:last-child { 
+	margin-right: 0px 
+}
+.mainnav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 2px 15px;
+}
+.mainnav a:hover {
+    color: #4bcaff;
+    outline: 2px solid #4bcaff;
+}
+nav li {
+    display: inline-block;
+    margin-right: 2px;
+}
+.content { 
+	min-width: 1200px 
+}
+/* Первый контейнер*/
+.container1 {
+    background-image: url('../images/pict1.jpg');
+    background-size: 100% 100%;
+}
+.context1,.context2 {
+    display: inline-block;
+    font-family: 'SegoeUILight';
+    font-size: 42px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: rgba(53,63,70,0.75);
+    padding: 17px 20px;
+}
+.container1 .wrapper {
+    padding-top: 400px;
+    text-align: center;
+}
+.context1 { 
+	margin-bottom: 20px 
+}
+
+/* Второй контейнер*/
+.container2 { 
+	background: #4bcaff 
+}
+.container1 .context2 { 
+	margin-bottom: 250px 
+}
+.container2 .wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.title {
+    font-family: 'SegoeUILight';
+    font-size: 30px;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+.whiteLine { 
+	border-bottom: 2px solid #ffffff 
+}
+.blackTitle {
+    font-family: 'SegoeUILight';
+    font-size: 30px;
+    color: #515f67;
+    padding-bottom: 40px;
+}
+.blackLine { 
+	border-bottom: 2px solid #515f67 
+}
+.slide2item {
+    display: inline-block;
+    width: 270px;
+    margin-right: 40px;
+    float: left;
+}
+.slide2item:nth-child(4) { 
+	margin-right: 0; 
+}
+.coffe {
+    position: relative;
+    width: 34px;
+    height: 48px;
+    background-image: url('../images/coffe.png');
+    margin-bottom: 25px;
+}
+.itemTag {
+    font-family: 'SegoeUISemiBold';
+    font-size: 24px;
+    color: #ffffff;
+}
+.itemText {
+    margin-top: 20px;
+    display: block;
+    font-family: 'SegoeUIRegular';
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 20px;
+}
+.instant {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    background-image: url('../images/instant.png');
+    margin-bottom: 25px;
+}
+.serious {
+    position: relative;
+    width: 47px;
+    height: 45px;
+    background-image: url('../images/serious.png');
+    margin-bottom: 25px;
+}
+.frame {
+    position: relative;
+    width: 47px;
+    height: 45px;
+    background-image: url('../images/frame.png');
+    margin-bottom: 25px;
+}
+/* Трейтий контейнер*/
+.portfolionav { 
+	margin-bottom: 20px 
+}
+.portfolionav .blackTitle { 
+	width: 25%;
+	float: left;
+}
+.filters {
+    font-family: 'SegoeUIBold';
+    font-size: 14px;
+    float: right;
+    text-align: right;
+    margin-top: 3.5px;
+}
+.filters{
+	margin-right: -15px;
+}
+.filters a {
+    text-decoration: none;
+    color: #626f76;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.filters a:hover {
+    color: #4bcaff;
+    outline: 2px solid #4bcaff;
+}
+.filters li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.filters li:last-child{
+	margin-right: 0;
+}
+.pictureRow {
+	margin-bottom: 30px;
+}
+.pictureRow div {
+    margin-right: 30px;
+    float: left;
+}
+.pictureRow div:nth-child(4) {
+    margin-right: 0;
+}
+.pictureRow:last-child{
+	margin-bottom: 0!important;
+}
+.pictureRow div img {
+    display: inline-block;
+    width: 277.5px;
+    height: 277.5px;
+}
+/* Четвертый контейнер*/
+.container4 { 
+	background: #515f67 
+}
+.buttonsection .title { 
+	padding-bottom: 40px 
+}
+.buttonsection {
+	position: relative;
+    width: 470px;
+    height: 312px;
+    float: left;
+}
+.sectiontext {
+    font-family: 'SegoeUIRegular';
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.buttonsection .sectiontext:last-child { 
+	margin-bottom: 0px 
+}
+.buttonvisit {
+    color: #353f46;
+    background-color: #515f67;
+    font-family: 'Segoe UIBold';
+    font-size: 14px;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    padding: 15px 40px;
+    border: 2px solid #353f46;
+    border-radius: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.buttonvisit:hover {
+	border: 2px solid #4bcaff;
+    background: #4bcaff;
+    color: white;
+    cursor: pointer;
+}
+.video {
+    margin-left: 60px;
+    float: right;
+}
+/* Пятый контейнер*/
+.container5 { 
+	background-color: #4bcaff 
+}
+.twitlogo {
+    float: right;
+    background-image: url(../images/twitlogo.png);
+    display: inline-block;
+    width: 28px;
+    height: 22px;
+}
+.twittext {
+    font-family: 'SegoeUILight';
+    font-size: 28px;
+    color: #ffffff;
+    line-height: 50px;
+}
+.twitbold { 
+	font-family: 'SegoeUISemiBold' 
+}
+/* Шестой контейнер*/
+.container6 {
+    background-color: #353f47;
+    background-image: url(../images/john.png);
+    background-size: cover;
+}
+.johnblock1 {
+    width: 50%;
+    float: left;
+    font-family: 'SegoeUIRegular';
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+}
+.johntext1 { 
+	margin-bottom: 40px 
+}
+.johnblock2 {
+    width: 45%;
+    float: right;
+}
+.johntext3 {
+    font-family: 'SegoeUIRegular';
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+}
+.socialicon { 
+	margin-top: 40px 
+}
+.socialItem {
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+    margin-right: 30px;
+    float: left;
+    position: relative;
+}
+.socialItem:last-child { 
+	margin-right: 0px 
+}
+.google {
+    background-image: url(../images/google.png);
+    display: inline-block;
+    width: 28px;
+    height: 29px;
+}
+.dribble {
+    background-image: url(../images/dribble.png);
+    display: inline-block;
+    width: 26px;
+    height: 27px;
+}
+.coff {
+    background-image: url(../images/coff.png);
+    display: inline-block;
+    width: 31px;
+    height: 24px;
+}
+.socialItem a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Седьмой контейнер*/
+.container7 .wrapper .scb{
+	background-image: url(../images/scb.png);
+	background-repeat: no-repeat;
+	float: right;
+	width: 32px;
+	height: 26px;
+}
+.testitext {
+    font-family: 'SegoeUILight';
+    max-width: 90%;
+    font-size: 28px;
+    line-height: 50px;
+    color: #515f67;
+}
+.blue {
+    margin-top: 40px;
+    font-family: 'SegoeUIBold';
+    font-size: 14px;
+    color: #4bcaff;
+}
+/* Восьмой контейнер*/
+.container8 {
+    background-image: url(../images/contactimg.png);
+    background-size: cover;
+    background-color: black;
+}
+.formlabel label {
+    display: block;
+    font-family: 'SegoeUIBold';
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.contactform {
+    width: 420px;
+    height: 40px;
+    background: transparent;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+.contactform:nth-child(4){
+	margin-bottom: 0;
+}
+.formText {
+    float: right;
+    width: 50%;
+}
+.contactInfo {
+    float: left;
+}
+.contactText {
+    font-family: 'SegoeUISemiBold';
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 25px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.contactText:last-child { 
+	margin-bottom: 0 
+}
+textarea {
+    background: transparent;
+    padding: 10px 20px;
+    width: 1156px;
+    height: 220px;
+    resize: none;
+    font-family: 'SegoeUILight';
+    font-size: 20px;
+    font-style: italic;
+    color: #ffffff;
+    overflow: hidden;
+    border: 2px solid #ffffff;
+    margin-bottom: 40px;
+}
+input[type="submit"] {
+    width: 370px;
+    height: 60px;
+    background-color: #4bcaff;
+    font-family: 'SegoeUIBold';
+    font-size: 14px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.footer { 
+	background: #353f47 
+}
+.footnav {
+    text-decoration: none;
+    float: left;
+    width: 75%;
+}
+.footnav ul {
+    max-width: 80%;
+}
+.footnav li {
+    margin-left: 15px;
+    padding-right: 15px;
+    border-right: 2px solid #515f67;
+    float: left;
+}
+.footnav li:last-child { 
+	border: none 
+}
+.footnav li:first-child{
+	margin-left: 0;
+}
+.footnav a {
+    color: #515f67;
+    font-family: 'SegoeUISemiBold';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.footnav a:hover { 
+	color: #4bcaff 
+}
+.date {
+    float: right;
+    font-family: 'SegoeUISemiBold';
+    font-size: 12px;
+    color: #515f67;
+}

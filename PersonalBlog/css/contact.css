@@ -1,0 +1,125 @@
+body{
+	color: #424242;
+}
+header{
+	background-color: #212429;
+}
+.detailSide {
+    padding: 40px 30px 0px 30px;
+}
+.personalContent{
+	margin-top: 100px;
+}
+.map {
+    width: 37%;
+    display: inline-block;
+    float: left;
+}
+.map iframe{
+	width: 100%;
+}
+.contactInformation {
+	height: 270px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    display: inline-block;
+    float: left;
+    width: 59%;
+    box-shadow: 1px 1px 1px 0px rgba(234, 234, 235, 0.75);
+    padding: 15px 2%;
+}
+.contactInformation h1 {
+    font-family: 'Montreal-Bold';
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 0px 25px 0;
+    border-bottom: 1px solid #eaeaeb;
+    margin-bottom: 30px;
+    width: 70%;
+}
+.contactInformation h4{
+	font-family: 'HindRegular';
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	margin-bottom: 25px;
+}
+.contactInformation a{
+	color: #424242;
+}
+.contactInformation div{
+	font-family: 'HindRegular';
+	font-size: 14px;
+	margin-top: 13px;
+	letter-spacing: 1px;
+}
+.contactInformation div:first-child{
+	margin-top: 0;
+}
+.contactInformation i{
+	margin-right: 10px;
+}
+.mapBlock{
+	margin-bottom: 30px;
+}
+.contactInfo div{
+	margin-top: 20px;
+}
+.contactInfo div:first-child{
+	margin-top: 0;
+}
+.contactInfo input{
+	outline: 0;
+	border: 0;
+}
+.name_email input{
+	padding: 16px 1.5% 13px 1.5%;
+	width: 45.5%;
+	float: right;
+	box-shadow: 1px 1px 1px 0px rgba(234, 234, 235, 0.75);
+}
+.name_email input:first-child{
+	margin-right: 3%;
+	float: left;
+}
+.websiteAddress input {
+    padding: 16px 1.5% 13px 1.5%;
+    width: 97%;
+}
+.websiteAddress, textarea{
+    box-shadow: 1px 1px 1px 0px rgba(234, 234, 235, 0.75);
+} 
+.messageArea textarea {
+    width: 97%!important;
+    resize: none;
+    padding: 15px 1.5%;
+    border: 0;
+    outline: 0;
+    line-height: 24px!important;
+}
+.contactInfo textarea, .contactInfo input{
+	font-family: 'HindRegular';
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #424242;
+	text-transform: uppercase;
+}
+.contactInfo button{
+	margin-top: 20px;
+	border: 0;
+	outline: 0;
+	background-color: #212429;
+	font-family: 'Montreal-Bold';
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #fff;
+	width: 170px;
+	height: 40px;
+	cursor: pointer;
+}
+@media screen and (max-width: 1480px){
+}
