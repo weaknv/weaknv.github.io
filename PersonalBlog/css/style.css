@@ -54,6 +54,13 @@
     font-style: normal;
 }
 @font-face {
+	font-family: 'Montserrat-Regular';
+	src: url('../fonts/Montserrat-Regular/Montserrat-Regular.eot');
+	src: url('../fonts/Montserrat-Regular/Montserrat-Regular.woff') format('woff'), url('../fonts/Montreal/Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
     font-family: 'MrsSaintDelafield-Regular';
     src: url('../fonts/MrsSaintDelafield-Regular/MrsSaintDelafield-Regular.eot');
     src: url('../fonts/MrsSaintDelafield-Regular/MrsSaintDelafield-Regular.woff') 

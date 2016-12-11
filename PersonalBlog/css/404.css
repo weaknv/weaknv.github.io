@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'HindRegular';
     src: url('../fonts/HindRegular/HindRegular.eot');
-    src: url('../fonts/HindRegular/HindRegular.woff') 
-    format('woff'), url('../fonts/HindRegular/HindRegular.ttf') 
+    src: url('../fonts/HindRegular/HindRegular.woff')
+    format('woff'), url('../fonts/HindRegular/HindRegular.ttf')
     format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -10,8 +10,8 @@
 @font-face {
     font-family: 'Montreal-Bold';
     src: url('../fonts/Montreal/Montreal-Bold.eot');
-    src: url('../fonts/Montreal/Montreal-Bold.woff') 
-    format('woff'), url('../fonts/Montreal/Montreal-Bold.ttf') 
+    src: url('../fonts/Montreal/Montreal-Bold.woff')
+    format('woff'), url('../fonts/Montreal/Montreal-Bold.ttf')
     format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -35,6 +35,14 @@ body{
 	text-align: center;
 	position: relative;
 }
+.position{
+	min-width: 1200px;
+	max-width: 1900px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+}
 .clear:before, .clear:after {
 	content:" ";
     display: table;
@@ -43,7 +51,6 @@ body{
 	clear: both;
 }
 .notFound{
-	margin-top: 121px;
 	margin-bottom: 30px;
 }
 .bigNumber{
