@@ -293,17 +293,18 @@
 	color: #212121;
 }
 .commentAutor_pic {
-    width: 209px;
+    width: 172px;
     height: 172px;
     display: inline-block;
     float: left;
 }
 .commentAutor_pic img{
 	width: 100%;
+	height:100%;
 }
 .detailComment_content{
 	background-color: #fff;
-	width: calc(100% - 211px);
+	width: calc(100% - 174px);
 	float: left;
 	display: inline-block;
 	color: #212121;
